@@ -8,6 +8,7 @@ namespace Lesson_Activity
         {
             Console.WriteLine("And so we've started upon our road");
             Console.WriteLine("Of learning C#, as we learn to code");
+            Console.WriteLine("I'm excited to start coding!");
         }
     }
 }

@@ -24,12 +24,10 @@ namespace Lesson_2_Activity
             var food = Console.ReadLine(); 
             food = food.Trim(); 
 
-
            string script1 = $"{firstName} had the most amazing day today with a {animal} named {animalName}."; 
            string script2 = $"But {animalName} wasn't any normal {animal}. See {animalName} was {colour} from head to toe."; 
            string script3 = $"{animalName} and {firstName} went to visit the {place}! In was at the {place} that they ate yummy ice cream."; 
            string script4 = $"At the end of the day, {firstName} and {animalName} hugged goodbye and rejoiced in their wonderful day at the {place}.";
-
            Console.WriteLine(script1);
            Console.WriteLine(script2);
            Console.WriteLine(script3);

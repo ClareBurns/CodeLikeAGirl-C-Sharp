@@ -7,22 +7,17 @@ namespace Lesson_2_Activity
         static void Main(string[] args)
         {
             Console.WriteLine("Please enter your first name: ");
-            string firstName = Console.ReadLine().Trim();
+            var firstName = Console.ReadLine().Trim();
             Console.WriteLine("Please enter your favourite animal: "); 
-            string animal = Console.ReadLine(); 
-            animal = animal.Trim(); 
+            var animal = Console.ReadLine().Trim(); 
             Console.WriteLine("Please enter a name for your animal: ");
-            string animalName = Console.ReadLine(); 
-            animalName = animalName.Trim(); 
+            var animalName = Console.ReadLine().Trim(); 
             Console.WriteLine("Please enter your favourite colour: "); 
-            var colour = Console.ReadLine();
-            colour = colour.Trim();
+            var colour = Console.ReadLine().Trim();
             Console.WriteLine("Please enter a fun place to visit: "); 
-            string place = Console.ReadLine();
-            place = place.Trim(); 
+            var place = Console.ReadLine().Trim(); 
             Console.WriteLine("Please enter your favourite food: "); 
-            var food = Console.ReadLine(); 
-            food = food.Trim(); 
+            var food = Console.ReadLine().Trim(); 
             
            Console.WriteLine($"{firstName} had the most amazing day today with a {animal} named {animalName}.");
            Console.WriteLine($"But {animalName} wasn't any normal {animal}. See {animalName} was {colour} from head to toe.");

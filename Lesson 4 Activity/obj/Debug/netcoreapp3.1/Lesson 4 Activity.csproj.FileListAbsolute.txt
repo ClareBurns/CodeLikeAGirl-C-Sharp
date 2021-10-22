@@ -1,0 +1,13 @@
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\bin\Debug\netcoreapp3.1\Lesson 4 Activity.exe
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\bin\Debug\netcoreapp3.1\Lesson 4 Activity.deps.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\bin\Debug\netcoreapp3.1\Lesson 4 Activity.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\bin\Debug\netcoreapp3.1\Lesson 4 Activity.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\bin\Debug\netcoreapp3.1\Lesson 4 Activity.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\bin\Debug\netcoreapp3.1\Lesson 4 Activity.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\obj\Debug\netcoreapp3.1\Lesson 4 Activity.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\obj\Debug\netcoreapp3.1\Lesson 4 Activity.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\obj\Debug\netcoreapp3.1\Lesson 4 Activity.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\obj\Debug\netcoreapp3.1\Lesson 4 Activity.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\obj\Debug\netcoreapp3.1\Lesson 4 Activity.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\obj\Debug\netcoreapp3.1\Lesson 4 Activity.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 4\Lesson 4 Activity\obj\Debug\netcoreapp3.1\Lesson 4 Activity.genruntimeconfig.cache

@@ -82,6 +82,7 @@ namespace Lesson_4_Activity
 
             //how often do we need to build?
             //okay to make an infinate loop for a for loop? 
+            //good resource --> https://codeasy.net/lesson/input_validation
         }
     }
 }

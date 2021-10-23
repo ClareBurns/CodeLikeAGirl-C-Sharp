@@ -9,14 +9,12 @@ namespace Lesson_4_Activity
             //generatoring a random number
             var randomGenerator = new Random();
             var randomNumber = randomGenerator.Next(1, 11);
-            Console.WriteLine(randomNumber);
 
             //Displaying rules to the user
             Console.WriteLine("Welcome to our guessing game!");
             Console.WriteLine("We will generate a random integer between 1 and 10!");
             Console.WriteLine("It is your job to guess what number we thought of.");
             Console.WriteLine("You will have 3 guesses.");
-
 
             for (var i = 1; ; i++)
             {

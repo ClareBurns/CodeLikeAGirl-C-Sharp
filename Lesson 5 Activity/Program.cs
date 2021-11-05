@@ -226,7 +226,7 @@ namespace Lesson_5_Activity
                                         {
                                             courseScience.Remove(studentName);
                                         }
-                                        else if (courseName == "commerce" && !courseCommerce.Contains(studentName) && courseCommerce.Count <= 2)
+                                        else if (courseName == "commerce" && courseCommerce.Contains(studentName))
                                         {
                                             courseCommerce.Remove(studentName);
                                         }

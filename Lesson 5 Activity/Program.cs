@@ -154,15 +154,15 @@ namespace Lesson_5_Activity
                                     else
                                     {
 
-                                        if (courseName == "science" && !courseScience.Contains(studentName) && courseScience.Count <= 2)
+                                        if (courseName == "science" && !courseScience.Contains(studentName) && courseScience.Count < 20)
                                         {
                                             courseScience.Add(studentName);
                                         }
-                                        else if (courseName == "commerce" && !courseCommerce.Contains(studentName) && courseCommerce.Count <= 2)
+                                        else if (courseName == "commerce" && !courseCommerce.Contains(studentName) && courseCommerce.Count < 20)
                                         {
                                             courseCommerce.Add(studentName);
                                         }
-                                        else if (courseName == "arts" && !courseArts.Contains(studentName) && courseArts.Count <= 2)
+                                        else if (courseName == "arts" && !courseArts.Contains(studentName) && courseArts.Count < 20)
                                         {
                                             courseArts.Add(studentName);
                                         }

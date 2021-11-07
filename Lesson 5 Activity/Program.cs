@@ -57,6 +57,7 @@ namespace Lesson_5_Activity
                         var studentName = Console.ReadLine().Trim().ToLower();
                         if (students.Contains(studentName))
                         {
+                            //make default if it doesn't contains studentName
                             switch (studentName)
                             {
                                 case "clare burns":
@@ -168,6 +169,7 @@ namespace Lesson_5_Activity
                                         }
                                         else
                                         {
+                                            //make courseArts.Count a boolean
                                             Console.WriteLine($"Sorry, {courseName} is full! Try again next year.");
                                             break;
                                         }

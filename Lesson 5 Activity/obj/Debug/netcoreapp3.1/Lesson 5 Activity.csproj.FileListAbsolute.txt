@@ -11,3 +11,16 @@ C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 5\Lesson 5 Activit
 C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 5\Lesson 5 Activity\obj\Debug\netcoreapp3.1\Lesson 5 Activity.dll
 C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 5\Lesson 5 Activity\obj\Debug\netcoreapp3.1\Lesson 5 Activity.pdb
 C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\C#\Lesson 5\Lesson 5 Activity\obj\Debug\netcoreapp3.1\Lesson 5 Activity.genruntimeconfig.cache
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\bin\Debug\netcoreapp3.1\Lesson 5 Activity.exe
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\bin\Debug\netcoreapp3.1\Lesson 5 Activity.deps.json
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\bin\Debug\netcoreapp3.1\Lesson 5 Activity.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\bin\Debug\netcoreapp3.1\Lesson 5 Activity.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\bin\Debug\netcoreapp3.1\Lesson 5 Activity.dll
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\bin\Debug\netcoreapp3.1\Lesson 5 Activity.pdb
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\obj\Debug\netcoreapp3.1\Lesson 5 Activity.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\obj\Debug\netcoreapp3.1\Lesson 5 Activity.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\obj\Debug\netcoreapp3.1\Lesson 5 Activity.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\obj\Debug\netcoreapp3.1\Lesson 5 Activity.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\obj\Debug\netcoreapp3.1\Lesson 5 Activity.dll
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\obj\Debug\netcoreapp3.1\Lesson 5 Activity.pdb
+C:\Users\clare\Dropbox\Coding courses\SheCodes\SheCodes Plus\Weather Application Project\CodeLikeAGirl-C-Sharp\Lesson 5 Activity\obj\Debug\netcoreapp3.1\Lesson 5 Activity.genruntimeconfig.cache

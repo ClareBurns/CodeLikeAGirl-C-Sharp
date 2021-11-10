@@ -1,0 +1,13 @@
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\obj\Debug\netcoreapp3.1\Lesson 6 marketing.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\obj\Debug\netcoreapp3.1\Lesson 6 marketing.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\obj\Debug\netcoreapp3.1\Lesson 6 marketing.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\obj\Debug\netcoreapp3.1\Lesson 6 marketing.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\bin\Debug\netcoreapp3.1\Lesson 6 marketing.exe
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\bin\Debug\netcoreapp3.1\Lesson 6 marketing.deps.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\bin\Debug\netcoreapp3.1\Lesson 6 marketing.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\bin\Debug\netcoreapp3.1\Lesson 6 marketing.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\bin\Debug\netcoreapp3.1\Lesson 6 marketing.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\bin\Debug\netcoreapp3.1\Lesson 6 marketing.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\obj\Debug\netcoreapp3.1\Lesson 6 marketing.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\obj\Debug\netcoreapp3.1\Lesson 6 marketing.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 6 marketing\obj\Debug\netcoreapp3.1\Lesson 6 marketing.genruntimeconfig.cache

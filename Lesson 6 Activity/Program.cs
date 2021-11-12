@@ -6,14 +6,36 @@ namespace Lesson_6_Activity
     {
         static void Main(string[] args)
         {
-            while (string)
+            while (true)
+            {
+                var continueCalculating = giveInstructions();
+                if (!continueCalculating)
+                {
+                    break;
+                }
                 var firstNumber = GetFirstNumber();
-            var operation = GetOperation();
-            var secondNumber = GetSecondNumber();
+                var operation = GetOperation();
+                var secondNumber = GetSecondNumber();
 
-            Console.WriteLine(firstNumber * secondNumber);
-
-
+                completeCalculation(firstNumber, operation, secondNumber);
+                Console.WriteLine("-------------------------------------------------");
+            }
+        }
+        static Boolean giveInstructions()
+        {
+            Console.WriteLine("Hello.");
+            Console.WriteLine("This program acts as a calculator application that can perform basic arithmetic.");
+            Console.WriteLine("If you wish to use the calculator press ENTER.");
+            Console.WriteLine("If you would like to exit the program press X");
+            var userInput = Console.ReadLine().Trim().ToLower();
+            if (userInput == "x")
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
 
         static double GetFirstNumber()
@@ -66,6 +88,22 @@ namespace Lesson_6_Activity
                 parseSuccess = double.TryParse(userInput, out secondNumber);
             }
             return secondNumber;
+        }
+
+        static void completeCalculation(double firstNumber, char operation, double secondNumber)
+        {
+            switch (operation)
+            {
+                case '-':
+                    Console.WriteLine("subtraction");
+                    break;
+                case '+':
+                    Console.WriteLine("addition");
+                    break;
+                case '*':
+                    Console.WriteLine("mutiplication");
+                    break
+            }
         }
     }
 }

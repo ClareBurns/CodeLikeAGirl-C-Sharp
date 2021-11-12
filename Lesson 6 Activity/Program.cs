@@ -18,6 +18,7 @@ namespace Lesson_6_Activity
                 var secondNumber = GetSecondNumber();
 
                 completeCalculation(firstNumber, operation, secondNumber);
+
                 Console.WriteLine("-------------------------------------------------");
             }
         }
@@ -61,11 +62,9 @@ namespace Lesson_6_Activity
             var userInput = Console.ReadLine().Trim();
             var parseSuccess = char.TryParse(userInput, out var operation);
 
-            var operationCheck = true;
-
-            while (!parseSuccess || !operationCheck)
+            while (!parseSuccess)
             {
-                Console.WriteLine("Error. You did not enter an operation");
+                Console.WriteLine("Error. You did not enter a character");
                 Console.Write("Please enter a number: ");
                 userInput = Console.ReadLine().Trim();
                 parseSuccess = char.TryParse(userInput, out operation);
@@ -95,15 +94,57 @@ namespace Lesson_6_Activity
             switch (operation)
             {
                 case '-':
-                    Console.WriteLine("subtraction");
+                    Subtraction(firstNumber, secondNumber);
                     break;
                 case '+':
-                    Console.WriteLine("addition");
+                    Addition(firstNumber, secondNumber);
                     break;
                 case '*':
-                    Console.WriteLine("mutiplication");
-                    break
+                    Multiplication(firstNumber, secondNumber);
+                    break;
+                case '/':
+                    Division(firstNumber, secondNumber);
+                    break;
+                case '^':
+                    PowerOf(firstNumber, secondNumber);
+                    break;
+                default:
+                    Console.WriteLine("Sorry we can not do that operation");
+                    break;
             }
         }
+
+        static void Subtraction(double firstNumber, double secondNumber)
+        {
+            var answer = firstNumber - secondNumber;
+            Console.WriteLine($"{firstNumber} - {secondNumber} = {answer}");
+        }
+
+        static void Addition(double firstNumber, double secondNumber)
+        {
+            var answer = firstNumber + secondNumber;
+            Console.WriteLine($"{firstNumber} + {secondNumber} = {answer}");
+        }
+
+        static void Multiplication(double firstNumber, double secondNumber)
+        {
+            var answer = firstNumber * secondNumber;
+            Console.WriteLine($"{firstNumber} * {secondNumber} = {answer}");
+        }
+
+        static void Division(double firstNumber, double secondNumber)
+        {
+            var answer = firstNumber / secondNumber;
+            Console.WriteLine($"{firstNumber} / {secondNumber} = {answer}");
+        }
+
+        static void PowerOf(double firstNumber, double secondNumber)
+        {
+            var answer = Math.Pow(firstNumber, secondNumber);
+            Console.WriteLine($"{firstNumber} ^ {secondNumber} = {answer}");
+        }
+
+
     }
 }
+

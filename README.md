@@ -1,13 +1,12 @@
 # CodeLikeAGirl-C#
-## CodeLikeAGirl's School of Code C# 10 week course.##
-<hr />
+### CodeLikeAGirl's School of Code C# 10 week course. <br />
 The topics are: <br />
--Variables and Types /n
--Operators /n
--Control Flow /n
--Arrays & Lists /n
--Methods /n
--Objects & Classes /n
--Encapsulation /n
--OOP Principles /n
--Polymorphism /n
+-Variables and Types <br />
+-Operators 
+-Control Flow 
+-Arrays & Lists 
+-Methods 
+-Objects & Classes 
+-Encapsulation 
+-OOP Principles 
+-Polymorphism 

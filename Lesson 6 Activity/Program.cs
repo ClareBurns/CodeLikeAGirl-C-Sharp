@@ -152,3 +152,7 @@ namespace Lesson_6_Activity
     }
 }
 
+//how many numbers?
+//addition and subtraction might want more numbers
+//division can only have 2 numbers
+//make a list of numbers?

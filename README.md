@@ -1,5 +1,5 @@
 # CodeLikeAGirl-C#
-##CodeLikeAGirl's School of Code C# 10 week course.##
+## CodeLikeAGirl's School of Code C# 10 week course.##
 <hr />
 The topics are: <br />
 -Variables and Types /n

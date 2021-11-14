@@ -7,7 +7,7 @@ namespace Lesson_5_Activity
     {
         static void Main(string[] args)
         {
-            //Defining lists 
+            //Defining lists move to repsond to user command method
             var students = new List<string> { "clare burns", "sofia burns", "gemma burns" };
             var courses = new List<string> { "science", "arts", "commerce" };
             var studentClareBurns = new List<string> { "science" };
@@ -22,7 +22,8 @@ namespace Lesson_5_Activity
 
                 GiveInstructions();
 
-                var userInput = Console.ReadLine().Trim().ToLower();
+                var userInput = Console.ReadLine().Trim().ToLower(); //.Replace(" ", "");
+                //Console.WriteLine(userInput);
 
                 if (userInput == "x")
                 {
@@ -53,6 +54,8 @@ namespace Lesson_5_Activity
         {
             switch (userInput)
             {
+
+
                 case "students":
                     ListStudents(students);
                     break;

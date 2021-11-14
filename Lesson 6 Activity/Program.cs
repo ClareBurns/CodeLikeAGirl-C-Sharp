@@ -8,7 +8,8 @@ namespace Lesson_6_Activity
         {
             while (true)
             {
-                var continueCalculating = giveInstructions();
+                //separate into 2 functions
+                var continueCalculating = GiveInstructions();
                 if (!continueCalculating)
                 {
                     break;
@@ -17,12 +18,15 @@ namespace Lesson_6_Activity
                 var operation = GetOperation();
                 var secondNumber = GetSecondNumber();
 
+                //add math.round()
+
                 completeCalculation(firstNumber, operation, secondNumber);
 
                 Console.WriteLine("-------------------------------------------------");
             }
         }
-        static Boolean giveInstructions()
+
+        static Boolean GiveInstructions()
         {
             Console.WriteLine("Hello.");
             Console.WriteLine("This program acts as a calculator application that can perform basic arithmetic.");
@@ -41,7 +45,6 @@ namespace Lesson_6_Activity
 
         static double GetFirstNumber()
         {
-
             Console.Write("Please enter a number: ");
             var userInput = Console.ReadLine().Trim();
             var parseSuccess = double.TryParse(userInput, out var firstNumber);
@@ -53,7 +56,6 @@ namespace Lesson_6_Activity
                 parseSuccess = double.TryParse(userInput, out firstNumber);
             }
             return firstNumber;
-
         }
 
         static char GetOperation()
@@ -68,7 +70,6 @@ namespace Lesson_6_Activity
                 Console.Write("Please enter a number: ");
                 userInput = Console.ReadLine().Trim();
                 parseSuccess = char.TryParse(userInput, out operation);
-
             }
             return operation;
         }
@@ -117,6 +118,7 @@ namespace Lesson_6_Activity
         static void Subtraction(double firstNumber, double secondNumber)
         {
             var answer = firstNumber - secondNumber;
+            //add result
             Console.WriteLine($"{firstNumber} - {secondNumber} = {answer}");
         }
 
@@ -136,6 +138,8 @@ namespace Lesson_6_Activity
         {
             var answer = firstNumber / secondNumber;
             Console.WriteLine($"{firstNumber} / {secondNumber} = {answer}");
+
+            //handle divide by zero error
         }
 
         static void PowerOf(double firstNumber, double secondNumber)

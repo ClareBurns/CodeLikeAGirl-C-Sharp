@@ -8,13 +8,13 @@ namespace Lesson_5_Activity
         static void Main(string[] args)
         {
             //Defining lists move to repsond to user command method
-            var students = new List<string> { "clare burns", "sofia burns", "gemma burns" };
+            var students = new List<string> { "clareburns", "sofiaburns", "gemmaburns" };
             var courses = new List<string> { "science", "arts", "commerce" };
             var studentClareBurns = new List<string> { "science" };
             var studentSofiaBurns = new List<string> { "commerce" };
             var studentGemmaBurns = new List<string> { "commerce", "science" };
-            var courseScience = new List<string> { "clare burns", "gemma burns" };
-            var courseCommerce = new List<string> { "sofia burns", "gemma burns" };
+            var courseScience = new List<string> { "clareburns", "gemmaburns" };
+            var courseCommerce = new List<string> { "sofiaburns", "gemmaburns" };
             var courseArts = new List<string> { };
 
             while (true)
@@ -22,8 +22,7 @@ namespace Lesson_5_Activity
 
                 GiveInstructions();
 
-                var userInput = Console.ReadLine().Trim().ToLower(); //.Replace(" ", "");
-                //Console.WriteLine(userInput);
+                var userInput = Console.ReadLine().Trim().ToLower().Replace(" ", "");
 
                 if (userInput == "x")
                 {
@@ -62,7 +61,7 @@ namespace Lesson_5_Activity
                 case "courses":
                     ListCourses(courses);
                     break;
-                case "student details":
+                case "studentdetails":
                     ShareStudentDetails(studentClareBurns, studentSofiaBurns, studentGemmaBurns);
                     break;
                 case "enrol":
@@ -71,10 +70,10 @@ namespace Lesson_5_Activity
                 case "unenrol":
                     UnenrolStudents(students);
                     break;
-                case "add course":
+                case "addcourse":
                     AddCourses(students, courses, studentClareBurns, studentSofiaBurns, studentGemmaBurns, courseScience, courseArts, courseCommerce);
                     break;
-                case "remove course":
+                case "removecourse":
                     RemoveCourses(students, courses, studentClareBurns, studentSofiaBurns, studentGemmaBurns, courseScience, courseArts, courseCommerce);
                     break;
                 default:
@@ -105,17 +104,17 @@ namespace Lesson_5_Activity
         static void ShareStudentDetails(List<string> studentClareBurns, List<string> studentSofiaBurns, List<string> studentGemmaBurns)
         {
             Console.WriteLine("What is the full name of the student you would like to get the details of?");
-            var studentName = Console.ReadLine().Trim().ToLower();
+            var studentName = Console.ReadLine().Trim().ToLower().Replace(" ", "");
             switch (studentName)
             {
-                case "clare burns":
+                case "clareburns":
                     Console.WriteLine($"Clare Burns is enrolled in: ");
                     foreach (var course in studentClareBurns)
                     {
                         Console.WriteLine($"{course}");
                     }
                     break;
-                case "sofia burns":
+                case "sofiaburns":
                     Console.WriteLine($"Sofia Burns is enrolled in: ");
                     foreach (var course in studentSofiaBurns)
                     {
@@ -123,7 +122,7 @@ namespace Lesson_5_Activity
                     }
                     break;
 
-                case "gemma burns":
+                case "gemmaburns":
                     Console.WriteLine($"Gemma Burns is enrolled in: ");
                     foreach (var course in studentGemmaBurns)
                     {
@@ -139,7 +138,7 @@ namespace Lesson_5_Activity
         static void EnrolStudents(List<string> students)
         {
             Console.WriteLine("Please enter the full name of the student you would like to enrol");
-            var newStudent = Console.ReadLine().Trim().ToLower();
+            var newStudent = Console.ReadLine().Trim().ToLower().Replace(" ", "");
             while (!string.IsNullOrEmpty(newStudent))
             {
                 if (students.Contains(newStudent))
@@ -163,7 +162,7 @@ namespace Lesson_5_Activity
         static void UnenrolStudents(List<string> students)
         {
             Console.WriteLine("Please enter the full name of the student you would like to unenrol");
-            var removedStudent = Console.ReadLine().Trim().ToLower();
+            var removedStudent = Console.ReadLine().Trim().ToLower().Replace(" ", "");
             while (!string.IsNullOrEmpty(removedStudent))
             {
                 if (students.Contains(removedStudent))
@@ -180,14 +179,14 @@ namespace Lesson_5_Activity
                     Console.WriteLine($"{removedStudent} is not currently enrolled.");
                 }
                 Console.WriteLine("If you wish to unenrol another student please enter their name. Otherwise, press enter.");
-                removedStudent = Console.ReadLine().Trim().ToLower();
+                removedStudent = Console.ReadLine().Trim().ToLower().Replace(" ", "");
             }
         }
 
         static void AddCourses(List<string> students, List<string> courses, List<string> studentClareBurns, List<string> studentSofiaBurns, List<string> studentGemmaBurns, List<string> courseScience, List<string> courseArts, List<string> courseCommerce)
         {
             Console.WriteLine("Please enter the name of the student you would like to add to the course");
-            var studentName = Console.ReadLine().Trim().ToLower();
+            var studentName = Console.ReadLine().Trim().ToLower().Replace(" ", "");
             while (!string.IsNullOrEmpty(studentName))
             {
                 if (!students.Contains(studentName))
@@ -197,7 +196,7 @@ namespace Lesson_5_Activity
                 else
                 {
                     Console.WriteLine($"Please enter the course you would like to enrol {studentName} to");
-                    var courseName = Console.ReadLine().Trim().ToLower();
+                    var courseName = Console.ReadLine().Trim().ToLower().Replace(" ", "");
                     while (!string.IsNullOrEmpty(courseName))
                     {
                         if (!courses.Contains(courseName))
@@ -226,17 +225,17 @@ namespace Lesson_5_Activity
                                 break;
                             }
 
-                            if (studentName == "clare burns" && !studentClareBurns.Contains(courseName))
+                            if (studentName == "clareburns" && !studentClareBurns.Contains(courseName))
                             {
                                 studentClareBurns.Add(courseName);
                                 Console.WriteLine($"{studentName} is now enrolled in {courseName}");
                             }
-                            else if (studentName == "sofia burns" && !studentSofiaBurns.Contains(courseName))
+                            else if (studentName == "sofiaburns" && !studentSofiaBurns.Contains(courseName))
                             {
                                 studentSofiaBurns.Add(courseName);
                                 Console.WriteLine($"{studentName} is now enrolled in {courseName}");
                             }
-                            else if (studentName == "gemma burns" && !studentGemmaBurns.Contains(courseName))
+                            else if (studentName == "gemmaburns" && !studentGemmaBurns.Contains(courseName))
                             {
                                 studentGemmaBurns.Add(courseName);
                                 Console.WriteLine($"{studentName} is now enrolled in {courseName}");
@@ -247,18 +246,18 @@ namespace Lesson_5_Activity
                             }
                         }
                         Console.WriteLine($"If you wish to add {studentName} to another course please enter the course. Otherwise, press enter.");
-                        courseName = Console.ReadLine().Trim().ToLower();
+                        courseName = Console.ReadLine().Trim().ToLower().Replace(" ", "");
                     }
                 }
                 Console.WriteLine("If you wish to add courses to another student please enter their name. Otherwise, press enter.");
-                studentName = Console.ReadLine().Trim().ToLower();
+                studentName = Console.ReadLine().Trim().ToLower().Replace(" ", "");
             }
         }
 
         static void RemoveCourses(List<string> students, List<string> courses, List<string> studentClareBurns, List<string> studentSofiaBurns, List<string> studentGemmaBurns, List<string> courseScience, List<string> courseArts, List<string> courseCommerce)
         {
             Console.WriteLine("Please enter the name of the student you would like to remove from a course");
-            var studentName = Console.ReadLine().Trim().ToLower();
+            var studentName = Console.ReadLine().Trim().ToLower().Replace(" ", "");
             while (!string.IsNullOrEmpty(studentName))
             {
                 if (!students.Contains(studentName))
@@ -268,7 +267,7 @@ namespace Lesson_5_Activity
                 else
                 {
                     Console.WriteLine($"Please enter the course you would like to remove {studentName} from");
-                    var courseName = Console.ReadLine().Trim().ToLower();
+                    var courseName = Console.ReadLine().Trim().ToLower().Replace(" ", "");
                     while (!string.IsNullOrEmpty(courseName))
                     {
                         if (!courses.Contains(courseName))
@@ -290,17 +289,17 @@ namespace Lesson_5_Activity
                             {
                                 courseArts.Remove(studentName);
                             }
-                            if (studentName == "clare burns" && studentClareBurns.Contains(courseName))
+                            if (studentName == "clareburns" && studentClareBurns.Contains(courseName))
                             {
                                 studentClareBurns.Remove(courseName);
                                 Console.WriteLine($"{studentName} is now removed from {courseName}");
                             }
-                            else if (studentName == "sofia burns" && studentSofiaBurns.Contains(courseName))
+                            else if (studentName == "sofiaburns" && studentSofiaBurns.Contains(courseName))
                             {
                                 studentSofiaBurns.Remove(courseName);
                                 Console.WriteLine($"{studentName} is now removed in {courseName}");
                             }
-                            else if (studentName == "gemma burns" && studentGemmaBurns.Contains(courseName))
+                            else if (studentName == "gemmaburns" && studentGemmaBurns.Contains(courseName))
                             {
                                 studentGemmaBurns.Remove(courseName);
                                 Console.WriteLine($"{studentName} is now removed in {courseName}");
@@ -311,12 +310,12 @@ namespace Lesson_5_Activity
                             }
                         }
                         Console.WriteLine($"If you wish to remove {studentName} from another course please enter the course. Otherwise, press enter.");
-                        courseName = Console.ReadLine().Trim().ToLower();
+                        courseName = Console.ReadLine().Trim().ToLower().Replace(" ", "");
                     }
 
                 }
                 Console.WriteLine("If you wish to remove courses from another student please enter their name. Otherwise, press enter.");
-                studentName = Console.ReadLine().Trim().ToLower();
+                studentName = Console.ReadLine().Trim().ToLower().Replace(" ", "");
             }
         }
     }

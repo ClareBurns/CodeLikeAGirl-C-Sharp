@@ -1,8 +1,7 @@
 # CodeLikeAGirl-C#
 ##CodeLikeAGirl's School of Code C# 10 week course.##
 <hr />
-<br />
-The topics are: /n
+The topics are: <br />
 -Variables and Types /n
 -Operators /n
 -Control Flow /n

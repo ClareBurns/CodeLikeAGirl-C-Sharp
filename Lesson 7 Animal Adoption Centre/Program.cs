@@ -36,6 +36,26 @@ namespace Lesson_7_Animal_Adoption_Centre
             {
                 pet.DisplayDetails();
             }
+
+            var headOffice = new Address
+            {
+                streetNumber = "48A",
+                streetName = "North Terrace",
+                city = "Adelaide",
+                postcode = 5000
+            };
+
+            var regionalOffice = new Address
+            {
+                streetNumber = "1034",
+                streetName = "Main Street",
+                city = "Gawler",
+                postcode = 5118
+            };
+            var headOfficeAddress = headOffice.GetAddress();
+            var regionalOfficeAddress = regionalOffice.GetAddress();
+
+            Console.WriteLine($"Our head office is located at {headOfficeAddress} and our regional office is located at {regionalOfficeAddress}.");
         }
 
         public class Pet
@@ -49,6 +69,19 @@ namespace Lesson_7_Animal_Adoption_Centre
                 Console.WriteLine($"A {age} year old {animal} named {name} is availale for adoption!");
             }
 
+        }
+
+        public class Address
+        {
+            public string streetNumber;
+            public string streetName;
+            public string city;
+            public int postcode;
+
+            public string GetAddress()
+            {
+                return $"{streetNumber} {streetName}, {city}";
+            }
         }
     }
 }

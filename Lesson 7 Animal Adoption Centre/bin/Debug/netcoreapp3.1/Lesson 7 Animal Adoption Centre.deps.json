@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Lesson 7 Animal Adoption Centre/1.0.0": {
+        "runtime": {
+          "Lesson 7 Animal Adoption Centre.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lesson 7 Animal Adoption Centre/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

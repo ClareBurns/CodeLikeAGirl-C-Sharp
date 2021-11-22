@@ -10,14 +10,18 @@ namespace Lesson_7_Activity
             while (true)
             {
                 GiveInstructions();
-                var userInput = Console.ReadLine().Trim().ToLower();
+                var userInput = Console.ReadLine().Trim().ToLower().Replace(" ", "");
                 if (userInput == "x")
                 {
                     break;
                 }
 
-                var members = CreateMembers();
-                var recommendedBooks = ChooseBooks();
+                RespondtoUserCommands(userInput);
+
+                Console.WriteLine("---------------------------------------------------------------");
+
+
+                var members = DeclareMembers();
 
                 foreach (var member in members)
                 {
@@ -33,14 +37,64 @@ namespace Lesson_7_Activity
         static void GiveInstructions()
         {
             Console.WriteLine("Welcome to the book club!");
-            Console.WriteLine("To see a list of the members type MEMBERS");
             Console.WriteLine("To see a list of the recommended books type BOOKS");
+            Console.WriteLine("To see a list of the members type MEMBERS");
             Console.WriteLine("To add a new member type NEW MEMBER");
             Console.WriteLine("To add a new book type NEW BOOK");
             Console.WriteLine("To exit the program type X");
         }
 
-        static List<Member> CreateMembers()
+        static void RespondtoUserCommands(string userInput)
+        {
+            var recommendedBooks = DeclareBooks();
+            var members = DeclareMembers();
+
+            switch (userInput)
+            {
+                case "books":
+                    DisplayBooks(recommendedBooks);
+                    break;
+                case "members":
+                    Console.WriteLine("members");
+                    DisplayMembers(members);
+                    break;
+                case "addmembers":
+                    Console.WriteLine("add members");
+                    break;
+                case "addbooks":
+                    Console.WriteLine("add books");
+                    break;
+                default:
+                    Console.WriteLine("Sorry we don't have the option.");
+                    break;
+            }
+        }
+        static List<Book> DeclareBooks()
+        {
+            var Book1 = new Book
+            {
+                title = "I Know Why The Caged Bird Sings",
+                author = "Maya Angelou"
+            };
+
+            var Book2 = new Book
+            {
+                title = "Ruby Redfort",
+                author = "Lauren Child"
+            };
+
+            var Book3 = new Book
+            {
+                title = "Midnight Children",
+                author = "Salman Rushdie"
+            };
+
+            var recommendedBooks = new List<Book> { Book1, Book2, Book3 };
+
+            return recommendedBooks;
+        }
+
+        static List<Member> DeclareMembers()
         {
             var member1 = new Member
             {
@@ -70,31 +124,27 @@ namespace Lesson_7_Activity
 
             return members;
         }
-        static List<Book> ChooseBooks()
+
+        static void DisplayBooks(List<Book> recommendedBooks)
         {
-            var Book1 = new Book
+            Console.WriteLine("The following books have been recommeded by the book club: ");
+            foreach (var book in recommendedBooks)
             {
-                title = "I Know Why The Caged Bird Sings",
-                author = "Maya Angelou"
-            };
-
-            var Book2 = new Book
-            {
-                title = "Ruby Redfort",
-                author = "Lauren Child"
-            };
-
-            var Book3 = new Book
-            {
-                title = "Midnight Children",
-                author = "Salman Rushdie"
-            };
-
-            var recommendedBooks = new List<Book> { Book1, Book2, Book3 };
-
-            return recommendedBooks;
+                Console.WriteLine($"\t {book.title} by {book.author}");
+            }
         }
+
+        static void DisplayMembers(List<Member> members)
+        {
+            Console.WriteLine("The following are members of the book club: ");
+            foreach (var member in members)
+            {
+                Console.WriteLine($"\t {member.firstName} {member.secondName}");
+            }
+        }
+
     }
+
     public class Book
     {
         public string title;
@@ -119,6 +169,9 @@ namespace Lesson_7_Activity
             Console.WriteLine($"{firstName} {secondName}'s favourite book is {favouriteBook}");
         }
     }
+
+
+    //https://dotnetfiddle.net/NZYQ8F
 
 }
 

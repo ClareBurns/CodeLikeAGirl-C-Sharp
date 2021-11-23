@@ -58,7 +58,7 @@ namespace Lesson_7_Activity
                     AddBook(recommendedBooks);
                     break;
                 case "newmember":
-                    Console.WriteLine("add members");
+                    AddMember(members);
                     break;
                 default:
                     Console.WriteLine("Sorry we don't have the option.");
@@ -195,9 +195,39 @@ namespace Lesson_7_Activity
 
             else
             {
-                var newBook = new Book() { title = newTitle, author = newAuthor };
+                var newBook = new Book() { title = newTitle, author = newAuthor, };
                 recommendedBooks.Add(newBook);
                 Console.WriteLine($"{newBook.title} by {newBook.author} has been added to the recommended book list");
+            }
+
+        }
+
+        static void AddMember(List<Member> members)
+        {
+            Console.WriteLine("What is the first name of the member you would like to add:  ");
+            var newFirstName = Console.ReadLine();
+            Console.WriteLine("What is the second name of the member you would like to add: ");
+            var newSecondName = Console.ReadLine();
+            var alreadyAdded = false;
+            foreach (var member in members)
+            {
+                if (member.firstName == newFirstName && member.secondName == newSecondName)
+                {
+                    alreadyAdded = true;
+                    break;
+                }
+            }
+
+            if (alreadyAdded)
+            {
+                Console.WriteLine("This member is already in the book club.");
+            }
+
+            else
+            {
+                var newMember = new Member() { firstName = newFirstName, secondName = newSecondName, favouriteBook = new Book(), readingList = new List<Book> { } };
+                members.Add(newMember);
+                Console.WriteLine($"{newMember.firstName} {newMember.secondName} has been added to the book club");
             }
 
         }

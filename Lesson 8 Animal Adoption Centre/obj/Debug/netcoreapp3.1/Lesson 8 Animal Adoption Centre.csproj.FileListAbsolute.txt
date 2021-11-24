@@ -1,0 +1,13 @@
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\bin\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.exe
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\bin\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.deps.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\bin\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\bin\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\bin\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\bin\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\obj\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\obj\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\obj\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\obj\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\obj\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\obj\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Animal Adoption Centre\obj\Debug\netcoreapp3.1\Lesson 8 Animal Adoption Centre.genruntimeconfig.cache

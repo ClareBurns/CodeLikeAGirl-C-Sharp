@@ -1,0 +1,13 @@
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\bin\Debug\netcoreapp3.1\Lesson 8 GiftCard.exe
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\bin\Debug\netcoreapp3.1\Lesson 8 GiftCard.deps.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\bin\Debug\netcoreapp3.1\Lesson 8 GiftCard.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\bin\Debug\netcoreapp3.1\Lesson 8 GiftCard.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\bin\Debug\netcoreapp3.1\Lesson 8 GiftCard.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\bin\Debug\netcoreapp3.1\Lesson 8 GiftCard.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\obj\Debug\netcoreapp3.1\Lesson 8 GiftCard.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\obj\Debug\netcoreapp3.1\Lesson 8 GiftCard.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\obj\Debug\netcoreapp3.1\Lesson 8 GiftCard.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\obj\Debug\netcoreapp3.1\Lesson 8 GiftCard.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\obj\Debug\netcoreapp3.1\Lesson 8 GiftCard.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\obj\Debug\netcoreapp3.1\Lesson 8 GiftCard.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 GiftCard\obj\Debug\netcoreapp3.1\Lesson 8 GiftCard.genruntimeconfig.cache

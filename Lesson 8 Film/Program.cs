@@ -7,7 +7,7 @@ namespace Lesson_8_Film
         static void Main(string[] args)
         {
             var film = new Film("Toy Story", 1994);
-            Console.WriteLine(film.Title);
+            Console.WriteLine(film.ReleaseYear);
         }
     }
 

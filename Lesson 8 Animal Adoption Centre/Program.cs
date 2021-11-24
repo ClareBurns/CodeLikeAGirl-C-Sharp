@@ -8,7 +8,7 @@ namespace Lesson_8_Animal_Adoption_Centre
     {
         static void Main(string[] args)
         {
-            var pet1 = new Pet
+            var pet1 = new Pet()
             {
                 animal = "cat",
                 name = "Sooty",

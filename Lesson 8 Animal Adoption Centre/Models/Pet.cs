@@ -1,6 +1,6 @@
 using System;
 
-namespace Lesson_8_Animal_Adoption_Centre.Models
+namespace Lesson_8_Animal_Adoption_Centre.Models    
 {
     public class Pet
     {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Lesson_8_Animal_Adoption_Centre.Models;
 
 namespace Lesson_8_Animal_Adoption_Centre
 {
@@ -58,31 +59,6 @@ namespace Lesson_8_Animal_Adoption_Centre
             Console.WriteLine($"Our head office is located at {headOfficeAddress} and our regional office is located at {regionalOfficeAddress}.");
         }
 
-        public class Pet
-        {
-            public string animal;
-            public string name;
-            public int age;
-
-            public void DisplayDetails()
-            {
-                Console.WriteLine($"A {age} year old {animal} named {name} is availale for adoption!");
-            }
-
-        }
-
-        public class Address
-        {
-            public string streetNumber;
-            public string streetName;
-            public string city;
-            public int postcode;
-
-            public string GetAddress()
-            {
-                return $"{streetNumber} {streetName}, {city}";
-            }
-        }
     }
 }
 

@@ -1,0 +1,13 @@
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\bin\Debug\netcoreapp3.1\Lesson 8 Film.exe
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\bin\Debug\netcoreapp3.1\Lesson 8 Film.deps.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\bin\Debug\netcoreapp3.1\Lesson 8 Film.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\bin\Debug\netcoreapp3.1\Lesson 8 Film.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\bin\Debug\netcoreapp3.1\Lesson 8 Film.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\bin\Debug\netcoreapp3.1\Lesson 8 Film.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\obj\Debug\netcoreapp3.1\Lesson 8 Film.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\obj\Debug\netcoreapp3.1\Lesson 8 Film.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\obj\Debug\netcoreapp3.1\Lesson 8 Film.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\obj\Debug\netcoreapp3.1\Lesson 8 Film.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\obj\Debug\netcoreapp3.1\Lesson 8 Film.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\obj\Debug\netcoreapp3.1\Lesson 8 Film.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Film\obj\Debug\netcoreapp3.1\Lesson 8 Film.genruntimeconfig.cache

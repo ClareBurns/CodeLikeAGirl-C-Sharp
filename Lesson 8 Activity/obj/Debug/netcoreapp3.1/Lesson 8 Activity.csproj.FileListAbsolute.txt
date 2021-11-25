@@ -1,0 +1,13 @@
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\bin\Debug\netcoreapp3.1\Lesson 8 Activity.exe
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\bin\Debug\netcoreapp3.1\Lesson 8 Activity.deps.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\bin\Debug\netcoreapp3.1\Lesson 8 Activity.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\bin\Debug\netcoreapp3.1\Lesson 8 Activity.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\bin\Debug\netcoreapp3.1\Lesson 8 Activity.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\bin\Debug\netcoreapp3.1\Lesson 8 Activity.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\obj\Debug\netcoreapp3.1\Lesson 8 Activity.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\obj\Debug\netcoreapp3.1\Lesson 8 Activity.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\obj\Debug\netcoreapp3.1\Lesson 8 Activity.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\obj\Debug\netcoreapp3.1\Lesson 8 Activity.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\obj\Debug\netcoreapp3.1\Lesson 8 Activity.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\obj\Debug\netcoreapp3.1\Lesson 8 Activity.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 8 Activity\obj\Debug\netcoreapp3.1\Lesson 8 Activity.genruntimeconfig.cache

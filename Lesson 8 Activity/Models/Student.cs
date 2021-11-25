@@ -11,5 +11,10 @@ namespace ExamCentre.Models
             CandidateNumber = candidateNumber;
             Name = name;
         }
+
+        public void AddScore(int score)
+        {
+            Score = score;
+        }
     }
 }

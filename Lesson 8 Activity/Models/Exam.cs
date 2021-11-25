@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace ExamCentre.Models
@@ -10,11 +11,20 @@ namespace ExamCentre.Models
         public Exam(string subject)
         {
             Subject = subject;
+            Students = new List<Student> { };
         }
 
-        public void AddStudent(Student student); 
+        public void AddStudent(Student student)
         {
-            Students.Add(student); 
+            Students.Add(student);
         }
-}
+
+        public void MarkPaper(int candidateNumber, int examResult)
+        {
+            var student = Students.Find(x => x.CandidateNumber == candidateNumber);
+            student.AddScore(examResult);
+        }
+
+
+    }
 }

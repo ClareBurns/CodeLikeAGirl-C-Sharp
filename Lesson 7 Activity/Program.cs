@@ -172,7 +172,7 @@ namespace Lesson_7_Activity
             }
         }
 
-        static List<Book> AddBook(List<Book> recommendedBooks)
+        static void AddBook(List<Book> recommendedBooks)
         {
             Console.WriteLine("What is the title of the book you would like to add: ");
             var newTitle = Console.ReadLine();
@@ -191,7 +191,6 @@ namespace Lesson_7_Activity
             if (alreadyAdded)
             {
                 Console.WriteLine("This book is already on the recommended book list.");
-                return recommendedBooks;
             }
 
             else
@@ -199,7 +198,6 @@ namespace Lesson_7_Activity
                 var newBook = new Book() { title = newTitle, author = newAuthor, };
                 recommendedBooks.Add(newBook);
                 Console.WriteLine($"{newBook.title} by {newBook.author} has been added to the recommended book list");
-                return recommendedBooks;
             }
 
         }

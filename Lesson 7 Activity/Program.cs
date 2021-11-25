@@ -7,6 +7,9 @@ namespace Lesson_7_Activity
     {
         static void Main(string[] args)
         {
+            var recommendedBooks = DeclareBooks();
+            var members = DeclareMembers(recommendedBooks);
+
             while (true)
             {
                 GiveInstructions();
@@ -16,7 +19,7 @@ namespace Lesson_7_Activity
                     break;
                 }
 
-                RespondtoUserCommands(userInput);
+                RespondtoUserCommands(userInput, recommendedBooks, members);
 
                 Console.WriteLine("---------------------------------------------------------------");
 
@@ -35,11 +38,8 @@ namespace Lesson_7_Activity
             Console.WriteLine("To exit the program type X");
         }
 
-        static void RespondtoUserCommands(string userInput)
+        static void RespondtoUserCommands(string userInput, List<Book> recommendedBooks, List<Member> members)
         {
-            var recommendedBooks = DeclareBooks();
-            var members = DeclareMembers(recommendedBooks);
-
             switch (userInput)
             {
                 case "books":
@@ -55,7 +55,7 @@ namespace Lesson_7_Activity
                     DisplayReadingList(members);
                     break;
                 case "newbook":
-                    recommendedBooks = AddBook(recommendedBooks);
+                    AddBook(recommendedBooks);
                     break;
                 case "newmember":
                     AddMember(members);
@@ -172,7 +172,7 @@ namespace Lesson_7_Activity
             }
         }
 
-        static List<Book> AddBook(List<Book> recommendedBooks)
+        static void AddBook(List<Book> recommendedBooks)
         {
             Console.WriteLine("What is the title of the book you would like to add: ");
             var newTitle = Console.ReadLine();
@@ -191,7 +191,6 @@ namespace Lesson_7_Activity
             if (alreadyAdded)
             {
                 Console.WriteLine("This book is already on the recommended book list.");
-                return recommendedBooks;
             }
 
             else
@@ -199,7 +198,6 @@ namespace Lesson_7_Activity
                 var newBook = new Book() { title = newTitle, author = newAuthor, };
                 recommendedBooks.Add(newBook);
                 Console.WriteLine($"{newBook.title} by {newBook.author} has been added to the recommended book list");
-                return recommendedBooks;
 
             }
 

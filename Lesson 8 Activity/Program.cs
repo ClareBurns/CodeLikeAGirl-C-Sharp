@@ -14,6 +14,8 @@ namespace ExamCentre
             var student2 = new Student(2, "Sofia");
             var student3 = new Student(3, "Gemma");
 
+            var student4 = new Student(4, 50);
+
             exam.AddStudent(student1);
             exam.AddStudent(student2);
             exam.AddStudent(student3);
@@ -22,13 +24,9 @@ namespace ExamCentre
             exam.MarkPaper(2, 90);
             exam.MarkPaper(3, 70);
 
-            Console.WriteLine(student3.Score);
-
+            Console.WriteLine(student1.Score);
+            Console.WriteLine(student4.Score);
         }
-
-
-
-
     }
 }
 

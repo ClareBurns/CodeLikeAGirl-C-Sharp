@@ -2,8 +2,8 @@ namespace ExamCentre.Models
 {
     public class Student
     {
-        //default property is internal
-        private int CandidateNumber { get; set; }
+        //default property is private
+        public int CandidateNumber { get; set; }
         private string Name { get; set; }
         public int Score { get; set; }
 
@@ -19,7 +19,7 @@ namespace ExamCentre.Models
             Score = score;
         }
 
-        private void AddScore(int score)
+        internal void AddScore(int score)
         {
             Score = score;
         }

@@ -6,10 +6,12 @@ namespace ExamCentre.Models
     public class Exam
     {
         public string Subject { get; set; }
-        public List<Student> Students { get; set; }
+        private List<Student> Students { get; set; }
 
+        //default constructor
         public Exam()
         {
+            //maths is the default constructor/exam. If not specified it will be Maths.
             Subject = "Maths";
         }
 

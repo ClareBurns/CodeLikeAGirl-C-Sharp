@@ -11,8 +11,8 @@ namespace Lesson_9_Vet_Clinic
             var Leia = new Dog();
             Leia.Eat();
 
-            var BabyYoda = new Pet();
-            BabyYoda.Eat();
+            var koala = new Koala();
+            koala.Sleep();
         }
     }
 }

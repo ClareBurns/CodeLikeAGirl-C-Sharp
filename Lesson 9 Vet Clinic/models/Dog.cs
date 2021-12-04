@@ -11,5 +11,10 @@ namespace Lesson_9_Vet_Clinic.models
         {
             Console.WriteLine("Om Nom!");
         }
+
+        public void Bark()
+        {
+            Console.WriteLine("Woof");
+        }
     }
 }

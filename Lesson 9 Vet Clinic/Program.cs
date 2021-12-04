@@ -1,4 +1,5 @@
 ﻿using System;
+using Lesson_9_Vet_Clinic.models;
 
 namespace Lesson_9_Vet_Clinic
 {
@@ -6,7 +7,7 @@ namespace Lesson_9_Vet_Clinic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var Luke = new Cat();
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using Lesson_9_Vet_Clinic.models;
+﻿using Lesson_9_Vet_Clinic.models;
 
 namespace Lesson_9_Vet_Clinic
 {
@@ -8,6 +7,12 @@ namespace Lesson_9_Vet_Clinic
         static void Main(string[] args)
         {
             var Luke = new Cat();
+            Luke.Eat();
+            var Leia = new Dog();
+            Leia.Eat();
+
+            var BabyYoda = new Pet();
+            BabyYoda.Eat();
         }
     }
 }

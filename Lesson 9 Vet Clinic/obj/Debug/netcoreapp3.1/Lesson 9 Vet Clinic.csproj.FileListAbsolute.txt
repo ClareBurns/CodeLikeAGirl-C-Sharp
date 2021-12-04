@@ -1,0 +1,13 @@
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\bin\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.exe
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\bin\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.deps.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\bin\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\bin\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\bin\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\bin\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\obj\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\obj\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\obj\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\obj\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\obj\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\obj\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Vet Clinic\obj\Debug\netcoreapp3.1\Lesson 9 Vet Clinic.genruntimeconfig.cache

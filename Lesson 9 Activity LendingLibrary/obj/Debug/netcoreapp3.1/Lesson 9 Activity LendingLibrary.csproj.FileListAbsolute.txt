@@ -1,0 +1,4 @@
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\obj\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\obj\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\obj\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\obj\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.csproj.CoreCompileInputs.cache

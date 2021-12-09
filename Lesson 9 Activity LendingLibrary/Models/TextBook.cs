@@ -1,3 +1,5 @@
+using System;
+
 namespace Lesson_9_Activity_LendingLibrary.Models
 {
     public class TextBook : Book
@@ -10,6 +12,11 @@ namespace Lesson_9_Activity_LendingLibrary.Models
             Author = author;
             PublicationYear = publicationyear;
             Subject = subject;
+        }
+
+        public void PrintTextBook()
+        {
+            Console.WriteLine($"\t TextBook titled {Title} by {Author}, {PublicationYear}, subject: {Subject}");
         }
     }
 }

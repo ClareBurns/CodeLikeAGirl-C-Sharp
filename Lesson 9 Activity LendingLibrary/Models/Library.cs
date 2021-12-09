@@ -4,6 +4,7 @@ namespace Lesson_9_Activity_LendingLibrary.Models
 {
     public class Library
     {
+        public string Name { get; set; }
         public List<Novel> Novels { get; set; }
 
         public List<TextBook> TextBooks { get; set; }
@@ -12,8 +13,9 @@ namespace Lesson_9_Activity_LendingLibrary.Models
 
         public List<AudioBook> AudioBooks { get; set; }
 
-        public Library()
+        public Library(string name)
         {
+            Name = name;
             Novels = new List<Novel> { };
             TextBooks = new List<TextBook> { };
             Albums = new List<Album> { };

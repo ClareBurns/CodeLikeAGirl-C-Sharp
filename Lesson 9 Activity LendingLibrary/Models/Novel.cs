@@ -1,3 +1,5 @@
+using System;
+
 namespace Lesson_9_Activity_LendingLibrary.Models
 {
     public class Novel : Book
@@ -10,6 +12,11 @@ namespace Lesson_9_Activity_LendingLibrary.Models
             Author = author;
             PublicationYear = publicationyear;
             Genre = genre;
+        }
+
+        public void PrintNovel()
+        {
+            Console.WriteLine($"\t Novel titled {Title} by {Author}, {PublicationYear}, genre: {Genre}");
         }
     }
 }

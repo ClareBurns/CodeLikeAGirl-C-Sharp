@@ -2,3 +2,12 @@ C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson
 C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\obj\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.AssemblyInfoInputs.cache
 C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\obj\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.AssemblyInfo.cs
 C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\obj\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\bin\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.exe
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\bin\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.deps.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\bin\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\bin\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\bin\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\bin\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\obj\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\obj\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 9 Activity LendingLibrary\obj\Debug\netcoreapp3.1\Lesson 9 Activity LendingLibrary.genruntimeconfig.cache

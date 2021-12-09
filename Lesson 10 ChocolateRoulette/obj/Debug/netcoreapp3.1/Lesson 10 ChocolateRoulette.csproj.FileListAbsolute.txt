@@ -1,0 +1,13 @@
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\bin\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.exe
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\bin\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.deps.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\bin\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\bin\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\bin\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\bin\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\obj\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\obj\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\obj\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\obj\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\obj\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\obj\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 ChocolateRoulette\obj\Debug\netcoreapp3.1\Lesson 10 ChocolateRoulette.genruntimeconfig.cache

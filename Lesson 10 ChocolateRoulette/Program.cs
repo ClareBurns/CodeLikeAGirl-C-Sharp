@@ -18,15 +18,24 @@ namespace Lesson_10_ChocolateRoulette
                 new Chocolate(),
                 new Chocolate(), };
 
+            while (chocolateBox.Count > 0)
+            {
+                Console.WriteLine("press any key to taste chocolate");
+                Console.ReadKey();
+                // select a chocolate at random 
+                var randomIndexGenerator = new Random();
+                var IndexofRandomChocolate = randomIndexGenerator.Next(0, chocolateBox.Count);
 
-            // select a chocolate at random 
-            var randomIndexGenerator = new Random();
-            var IndexofRandomChocolate = randomIndexGenerator.Next(0, chocolateBox.Count);
+                var selectedChocolate = chocolateBox[IndexofRandomChocolate];
 
-            var selectedChocolate = chocolateBox[IndexofRandomChocolate];
+                chocolateBox.RemoveAt(IndexofRandomChocolate);
 
-            //taste our chocolate
-            selectedChocolate.Taste();
+                //taste our chocolate
+                selectedChocolate.Taste();
+
+            }
+
+            Console.WriteLine("We're all out of chocolates");
         }
     }
 }

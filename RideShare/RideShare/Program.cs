@@ -19,12 +19,6 @@ namespace RideShare
             }
 
             ChooseVehicle(vehicles);
-
-            // 2.1. TODO: Create a list that can hold the above cars, extra large cars and luxury cars
-
-            // 2.2. Check for nearby cars, extra large cars and luxury cars
-            // by creating a foreach loop that goes through each of the cars, motorbikes and luxury cars created
-            // and calls their ReportDistance method
         }
 
         static void GiveInstructions()
@@ -36,13 +30,28 @@ namespace RideShare
 
         static List<Vehicle> FindNearbyCars()
         {
-            // Create cars, motorbikes and luxury cars in the user's vicinity
-            var car1 = new Car(4.5);
-            var car2 = new Car(1.2);
-            var luxuryCar1 = new LuxuryCar(0.6);
-            var extraLargeCar1 = new Extra_Large_Car(3.0);
+            var randomNumberGenerator = new Random();
 
-            var vehicles = new List<Vehicle> { car1, car2, luxuryCar1, extraLargeCar1 };
+            var listOfVehicleTypes = new List<Vehicle>
+            {
+                new Car(),
+                new Luxury_Car(),
+                new Extra_Large_Car()
+            };
+
+            var vehicle1 = listOfVehicleTypes[randomNumberGenerator.Next(0, listOfVehicleTypes.Count)];
+            var vehicle2 = listOfVehicleTypes[randomNumberGenerator.Next(0, listOfVehicleTypes.Count)];
+            var vehicle3 = listOfVehicleTypes[randomNumberGenerator.Next(0, listOfVehicleTypes.Count)];
+            var vehicle4 = listOfVehicleTypes[randomNumberGenerator.Next(0, listOfVehicleTypes.Count)];
+
+
+            //only vehicles within a 5 km range
+            vehicle1.DistanceAwayInKm = Math.Round(5 * randomNumberGenerator.NextDouble(), 2);
+            vehicle2.DistanceAwayInKm = Math.Round(5 * randomNumberGenerator.NextDouble(), 2);
+            vehicle3.DistanceAwayInKm = Math.Round(5 * randomNumberGenerator.NextDouble(), 2);
+            vehicle4.DistanceAwayInKm = Math.Round(5 * randomNumberGenerator.NextDouble(), 2);
+
+            var vehicles = new List<Vehicle> { vehicle1, vehicle2, vehicle3, vehicle4 };
 
             return vehicles;
         }
@@ -50,6 +59,8 @@ namespace RideShare
         static void ChooseVehicle(List<Vehicle> vehicles)
         {
             Console.WriteLine("Which vehicle would you like to choose?");
+            //Console.WriteLine("Vehicle 1, Vehicle 2,  ");
+            //var UserInput = Console.ReadLine();
         }
     }
 }

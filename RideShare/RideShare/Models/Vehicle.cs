@@ -3,6 +3,8 @@ using System;
 namespace RideShare.Models
 {
 
+    //but derived class cannot inherit the constructor of the base class!
+
     // TODO:
     // 1.1. Create a base class called Vehicle. Make the Car, ExtraLargeCar and LuxuryCar classes derive from this class.
     // 1.2. If it makes sense to move any properties to the base class to avoid duplication, then do so.
@@ -12,14 +14,9 @@ namespace RideShare.Models
     // 1.5. Ensure that the appropriate modifiers are used on your methods so that the default implementation
     //		of the ReportDistance method is used for the Car and ExtraLargeCar, but the LuxuryCar uses its own implementation of this method. 
 
-    public class Vehicle
+    public abstract class Vehicle
     {
-        public double DistanceAwayInKm { get; set; }
-
-        public Vehicle(double distanceAwayInKm)
-        {
-            DistanceAwayInKm = distanceAwayInKm;
-        }
+        internal double DistanceAwayInKm { get; set; }
 
         public virtual void ReportDistance()
         {
@@ -30,14 +27,20 @@ namespace RideShare.Models
 
     public class Car : Vehicle
     {
+        public Car()
+        { }
     }
 
     public class Extra_Large_Car : Vehicle
     {
+        public Extra_Large_Car()
+        { }
     }
 
-    public class LuxuryCar : Vehicle
+    public class Luxury_Car : Vehicle
     {
+        public Luxury_Car()
+        { }
 
         public override void ReportDistance()
         {

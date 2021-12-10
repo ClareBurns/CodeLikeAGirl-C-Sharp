@@ -8,6 +8,7 @@ namespace RideShare.Models
 
         public virtual void ReportDistance()
         {
+            //don't understand this.GetType().Name properly
             var className = this.GetType().Name;
             Console.WriteLine($"There is a vehicle (type: {className.ToLower().Replace("_", " ")}) {DistanceAwayInKm}km away.");
         }

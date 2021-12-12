@@ -83,7 +83,7 @@ namespace RideShare
             Console.WriteLine("\tType '4' for Option 4");
             Console.WriteLine("\tType '5' to re-search for vehicles");
             Console.WriteLine("\tType 'x' to exit the program");
-            var option = Console.ReadLine();
+            var option = Console.ReadLine().Trim().ToLower().Replace("'", "");
             Boolean didChooseVehicle = true;
 
             switch (option)
@@ -106,9 +106,13 @@ namespace RideShare
                     break;
                 case "x":
                     break;
+                default:
+                    Console.WriteLine("ERROR: Sorry that option was not avalible. Please try again.");
+                    break;
             }
 
             return didChooseVehicle;
         }
     }
 }
+

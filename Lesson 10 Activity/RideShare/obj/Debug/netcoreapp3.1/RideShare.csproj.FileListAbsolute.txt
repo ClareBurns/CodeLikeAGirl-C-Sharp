@@ -11,3 +11,16 @@ C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\RideSh
 C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\RideShare\RideShare\obj\Debug\netcoreapp3.1\RideShare.dll
 C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\RideShare\RideShare\obj\Debug\netcoreapp3.1\RideShare.pdb
 C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\RideShare\RideShare\obj\Debug\netcoreapp3.1\RideShare.genruntimeconfig.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\bin\Debug\netcoreapp3.1\RideShare.exe
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\bin\Debug\netcoreapp3.1\RideShare.deps.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\bin\Debug\netcoreapp3.1\RideShare.runtimeconfig.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\bin\Debug\netcoreapp3.1\RideShare.runtimeconfig.dev.json
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\bin\Debug\netcoreapp3.1\RideShare.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\bin\Debug\netcoreapp3.1\RideShare.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\obj\Debug\netcoreapp3.1\RideShare.csprojAssemblyReference.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\obj\Debug\netcoreapp3.1\RideShare.AssemblyInfoInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\obj\Debug\netcoreapp3.1\RideShare.AssemblyInfo.cs
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\obj\Debug\netcoreapp3.1\RideShare.csproj.CoreCompileInputs.cache
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\obj\Debug\netcoreapp3.1\RideShare.dll
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\obj\Debug\netcoreapp3.1\RideShare.pdb
+C:\Users\clare\Dropbox\Coding courses\CodeLikeaGirl\CodeLikeAGirl-C-Sharp\Lesson 10 Activity\RideShare\obj\Debug\netcoreapp3.1\RideShare.genruntimeconfig.cache

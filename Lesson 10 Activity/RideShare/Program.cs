@@ -64,10 +64,11 @@ namespace RideShare
             listOfVehicleTypes.Remove(vehicle4);
 
             //only vehicles within a 5 km range
-            vehicle1.DistanceAwayInKm = Math.Round(5 * randomNumberGenerator.NextDouble(), 1);
-            vehicle2.DistanceAwayInKm = Math.Round(5 * randomNumberGenerator.NextDouble(), 1);
-            vehicle3.DistanceAwayInKm = Math.Round(5 * randomNumberGenerator.NextDouble(), 1);
-            vehicle4.DistanceAwayInKm = Math.Round(5 * randomNumberGenerator.NextDouble(), 1);
+            var kmRange = 5;
+            vehicle1.DistanceAwayInKm = Math.Round(kmRange * randomNumberGenerator.NextDouble(), 1);
+            vehicle2.DistanceAwayInKm = Math.Round(kmRange * randomNumberGenerator.NextDouble(), 1);
+            vehicle3.DistanceAwayInKm = Math.Round(kmRange * randomNumberGenerator.NextDouble(), 1);
+            vehicle4.DistanceAwayInKm = Math.Round(kmRange * randomNumberGenerator.NextDouble(), 1);
 
             var vehicles = new List<Vehicle> { vehicle1, vehicle2, vehicle3, vehicle4 };
 

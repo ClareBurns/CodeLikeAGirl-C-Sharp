@@ -33,14 +33,14 @@ namespace RideShare
             }
         }
 
-        static void GiveInstructions()
+        private static void GiveInstructions()
         {
             Console.WriteLine("Welcome to our RideShare App!");
             Console.WriteLine("Press any key to see the cars in your local vicinity");
         }
 
 
-        static List<Vehicle> FindNearbyCars()
+        private static List<Vehicle> FindNearbyCars()
         {
             var randomNumberGenerator = new Random();
 
@@ -75,7 +75,7 @@ namespace RideShare
             return vehicles;
         }
 
-        static Boolean ChooseVehicle(List<Vehicle> vehicles)
+        private static Boolean ChooseVehicle(List<Vehicle> vehicles)
         {
             Console.WriteLine("Which vehicle would you like to choose?");
             Console.WriteLine("\tType '1' for Option 1");

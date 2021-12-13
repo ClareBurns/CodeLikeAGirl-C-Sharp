@@ -75,7 +75,7 @@ namespace RideShare
             return vehicles;
         }
 
-        private static Boolean ChooseVehicle(List<Vehicle> vehicles)
+        private static bool ChooseVehicle(List<Vehicle> vehicles)
         {
             Console.WriteLine("Which vehicle would you like to choose?");
             Console.WriteLine("\tType '1' for Option 1");
@@ -85,7 +85,7 @@ namespace RideShare
             Console.WriteLine("\tType '5' to re-search for vehicles");
             Console.WriteLine("\tType 'x' to exit the program");
             var option = Console.ReadLine().Trim().ToLower().Replace("'", "");
-            Boolean didChooseVehicle = true;
+            bool didChooseVehicle = true;
 
             switch (option)
             {
